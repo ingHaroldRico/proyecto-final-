@@ -51,7 +51,7 @@ div img{
 }
     
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 649px) {
 	nav {
 		display: none;
 	}
