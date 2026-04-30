@@ -1,0 +1,119 @@
+body{
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to left , rgb(190, 114, 114), red);
+    flex-wrap: wrap;  
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    flex-wrap: wrap;
+   
+   
+}
+.contenedor{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-top: 0;
+    color: rgb(248, 219, 219);
+    border: 4px inset rgb(106, 0, 0);
+    min-height: 100px;
+    gap: 3px;
+}
+
+
+input{
+    cursor: pointer;
+    text-align: center;
+    margin: 6px 0px 6px 0;
+    color: rgb(71, 93, 10);
+    background-color: rgb(246, 238, 238);
+    font-weight:700;
+}
+.historial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(52, 9, 9);
+    width: 150px;
+    height: 100px;
+    background-color: rgb(162, 202, 212);
+    overflow-y: auto;
+    color: rgb(3, 39, 70);
+    font-size: 15px;
+    gap: 3px;
+    padding: 3px;
+   
+}
+.con_histaux{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+   
+}
+.aux-hist2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.resultado{
+    font-size: 20px;
+    border: 3px solid white;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn_calcular{
+    background-color: rgb(170, 3, 3);
+    border-color: rgb(69, 1, 1);
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 3px;
+    font-width: 6px;
+    font-size: 15px;
+    transition: 0.3s; /* Suaviza el cambio */
+}
+
+.btn_calcular:hover {
+  background-color: rgb(230, 17, 2);
+  cursor: pointer;
+}
+select{
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid red;
+}
+.cajar{
+    padding: 0;
+    height: 70px;
+    font-size: 30px;
+    width: 200px;
+    color: rgb(1, 78, 20);
+}
+
+.btn_limpiar{
+    color: rgb(230, 230, 233);
+    background-color: blue ;
+    padding: 3px;
+    border-radius: 5px;;
+    font-size: 15px;
+    transition: 0.3s; /* Suaviza el cambio */
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    margin: 3px 0px;
+}
+
+
+    

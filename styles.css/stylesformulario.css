@@ -1,0 +1,45 @@
+
+
+.fondo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 115, 159);
+    max-height: 250px;
+    max-width: 350px;
+    gap:0px;
+    flex-direction: column;
+    padding: 10px;
+    
+    
+}
+button{
+    background-color: blue;
+    color: antiquewhite;
+    width: 100px;
+    padding: 5px;
+    transition: 3s;
+}
+button:hover{
+    background-color: rgb(228, 221, 221);
+    color: black;
+    cursor: pointer;
+}
+input{
+     width: 90%;
+     padding: 5px;
+     transition: 3s;
+}
+input:hover{
+    background-color: rgb(230, 245, 209);
+    color: black;
+    cursor: pointer;
+}
+span{
+    width: 100%;
+    margin-left: 22%;
+    color: aliceblue;
+}
+h3{
+    color: aliceblue;
+}

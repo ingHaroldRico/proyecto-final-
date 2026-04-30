@@ -1,0 +1,45 @@
+
+
+.contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkgreen;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    max-height: 450px;
+    border-color:  black;
+    padding: 2px 5px 2px 5px;
+    gap: 3px;
+   
+}
+
+button{
+    font-size: medium;
+    background-color:rgb(13, 3, 99);
+    color: white;
+    border-radius: 10px;
+    padding: 3px;
+}
+input{
+    border-radius: 20px;
+    text-align: center;
+    width: 50px;
+}
+.inputs{
+    display: flex;
+    gap: 4px;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+
+    
+}
+.nombre{
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jquery</title>
+	<link rel="stylesheet" href="./styles.css/stylesBody.css">
+	<link rel="stylesheet" href="./styles.css/header.css">
+    <link rel="stylesheet" href="./styles.css/stylescalculadora.css">
+</head>
+<body>
+
+	<header id="header">
+		
+        <div>Kit de Herramientas</div>
+		<nav>
+                
+                
+                    <a href="./index.html">Inicio</a>
+                    <a href="./indexIcm.html">ICM</a>
+                    <a href="./formulario.html">Formulario Repaso</a>
+                    <a href="./calculadora.html">Calculadora con Historial</a>
+                    <a href="./tareas.html">Administrador de Tareas</a>
+                
+        </nav>
+
+
+		<button id="header-menu">
+			<img src="./Img/botones/menu.png" alt="">
+		</button>
+
+	</header>
+    <div class="principal">
+        <section class="contenedor">
+            <h3>SuperCalculadora</h3>
+            <p id="resultado" class="resultado">0</p>
+            <input type="number" id="numero1" class="caja" placeholder="Ingresa un Número" required>
+            <input type="number" id="numero2" class="caja" placeholder="Ingresa un Número" required>
+            <div class="seleccion">
+                <select id="operacion">
+                    <option value="+">Sumar</option>
+                    <option value="-">Restar</option>
+                    <option value="*">Multiplicar</option>
+                    <option value="/">Dividir</option>
+                    
+                </select>
+            </div>
+            <div class="botones">
+                <button class="btn_calcular" id="btn_calcular">Calcular</button>
+                <button class="btn_limpiar" id="limpiar">C</button>
+            </div>
+            
+        </section>
+       
+        <section  class="historial">
+            <span>Historial</span>
+           
+            <div id="con_hist" class="aux-hist2">
+
+            </div>
+            
+                    
+        </section>
+   
+    </div>
+    
+   
+    <footer class="pie">
+        <p>@Harold Rico</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/scriptcalculadora.js"></script>
+</body>
+</html>

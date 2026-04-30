@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jquery</title>
+	<link rel="stylesheet" href="./styles.css/stylesBody.css">
+	<link rel="stylesheet" href="./styles.css/header.css">
+	<link rel="stylesheet" href="./styles.css/stylestarea.css">
+</head>
+<body>
+
+	<header id="header">
+		
+        <div>Kit de Herramientas</div>
+		<nav>
+                
+                
+                    <a href="./index.html">Inicio</a>
+                    <a href="./indexIcm.html">ICM</a>
+                    <a href="./formulario.html">Formulario Repaso</a>
+                    <a href="./calculadora.html">Calculadora con Historial</a>
+                    <a href="./tareas.html">Administrador de Tareas</a>
+                
+        </nav>
+
+
+		<button id="header-menu">
+			<img src="./Img/botones/menu.png" alt="">
+		</button>
+
+	</header>
+	<main> 
+        <section>
+            <input id="tarea" type="text" placeholder="Nueva Tarea" >
+            <button id="btn-agregar">Agregar Tarea</button>
+        </section>
+        <section>
+            <div class="caja" id="caja"></div>
+            <div class="conteo">
+                <span id="total">0 Total</span>
+                <span id="completadas">0 Completadas</span>
+            </div>
+        </section>
+    </main>
+    <script src="./script/scriptTareas.js"></script>
+
+    
+    <footer class="pie">
+        <p>@Harold Rico</p>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+	<script src="./scripts/scripttareas.js"></script>
+</body>
+</html>
